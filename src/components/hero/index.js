@@ -1,8 +1,10 @@
-import React from "react"
-import "../../styles/home.css"
-import NavBar from "../components/navbar"
-export default function Home() {
-  return <div>
+import React from "react";
+import './hero.css';
+import NavBar from "../navbar";
+
+function Hero () {
+    return (
+        <>
         <section className="header">
           <NavBar></NavBar>
       <div className="text-box">
@@ -10,6 +12,8 @@ export default function Home() {
         <p>IIT Roorkee</p>
       </div>
     </section>
-
-  </div>
+        </>
+    )
 }
+
+export default Hero;

@@ -1,0 +1,158 @@
+.contact{
+  min-height: 100vh;
+  min-width: 100%;
+  background-color:rgb(7, 7, 49);
+  background-image: url("../../assets/stars.png");
+  background-repeat: repeat;
+  background-size: 100%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+   
+ .contact-container{
+  padding-top: 150px;
+  padding: 2rem;
+}
+
+.heading{
+  text-align: center;
+  color: #E4B6A5;
+  margin-bottom: 1rem;
+}
+.description{
+  text-align: center;
+  color: white;
+  margin-bottom: 1rem;
+  font-size: xx-large;
+}
+
+  .heading h1{
+    font-weight: 800;
+    font-size: 9.5rem;
+  }
+  
+  .message-content{
+    width: 30%;
+    margin: 0 5% 0 15%;
+    justify-content: center;
+  }
+
+  .contact-info{
+    width: 30%;
+    margin: 0 15% 0 5%;
+  }
+
+  .contact-info h3{
+    color:white;
+    margin-top: 16px;
+  }
+
+  .contact-info p{
+    color: white;
+  }
+  
+  .contact input, .contact textarea{
+    box-sizing: border-box;
+    background: none;
+    resize: none;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem ;
+    color:white;
+    font-size: larger;
+    outline: 0 !important;
+    box-shadow: none !important;
+    top: 0;
+    margin-bottom: 1rem !important;
+    margin-top: 1rem !important;
+    padding-left: 0.3rem !important;
+  }
+ 
+  
+  .contact input:focus, .contact textarea:focus{
+    background: transparent;
+    border: 0.15rem solid white;
+    color:white;
+    font-size: larger;
+  }
+  
+  .contact textarea{
+    height: 8rem !important;
+  }
+
+  .contact-btn{
+    font-size: larger;
+    border-radius: 25px;
+    background-color: #151520;
+    color: white;
+    padding: 5px 30px 5px 30px;
+    margin: 0 10% 0 30%;
+  }
+  
+  input.form-control{
+    margin: -0.3rem 0;
+  }
+  
+  textarea.form-control{
+    margin: -0.3rem 0;
+  }
+  
+  .error-message{
+    color: white;
+    background: red;
+    text-align: left;
+    margin-bottom: 2rem !important;
+  }
+  
+  .success-message{
+    font-weight: 900;
+    color: green;
+  }
+  
+  .text-center{
+    color: white;
+  }
+
+  .text-center ::placeholder{
+    color:#C4C4C4;
+    font-size: large;
+  }
+
+  .contactIcons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icon{
+    font-size: 50px;
+    color: black;
+    border-radius: 50%;
+    background-color: white;
+    margin-right: 1rem;
+    padding: 5px;
+}
+
+@media(max-width: 768px){
+  .contact{
+    overflow-x: hidden;
+  }
+  .contact .container{
+    padding: 0 1rem;
+  }
+  .contact p{
+    padding: 0 0.4rem;
+  }
+  .message-content{
+    width: 80%;
+    margin: 0 10% 0 10%;
+    justify-content: center;
+  }
+
+  .contact-info{
+    width: 80%;
+    margin: 0 10% 0 10%;
+  }
+
+  .heading h1{
+    font-size: 3rem;
+  }
+}
