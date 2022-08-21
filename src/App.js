@@ -7,9 +7,10 @@ import Contact from "./components/contact";
 import ScrollToTop from './components/ScrollToTop';
 import About from "./components/about";
 import Projects from "./components/projects";
-import Astrophotography from "./components/astrophotography";
 import Instruments from "./components/instruments";
 import "./components/navbar/navbar.css"
+import Astrophotography from "./components/astrophotography/ImageSlider";
+import images from "./components/astrophotography/images";
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
           <Route exact path="/projects" element={<Projects />} />
           <Route exact path="/instruments" element={<Instruments />} />
           <Route exact path="/events" element={<Events />} />
-          <Route exact path="/astrophotography" element={<Astrophotography />} />
+          <Route exact path="/astrophotography" element={<Astrophotography images={images}/> } />
           <Route exact path="/contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>

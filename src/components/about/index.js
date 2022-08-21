@@ -11,7 +11,7 @@ function About () {
           <div className="about">
             <div class="max-width">
               <div class="carousel3 owl-carousel">
-              <div class="card">
+                <div class="card">
                   <div class="box">
                     <img src="../../assets/members/18311006.jpeg"/>
                     <div class="text">Someone name</div>
