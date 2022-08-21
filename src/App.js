@@ -10,6 +10,7 @@ import Projects from "./components/projects";
 import Astrophotography from "./components/astrophotography";
 import Instruments from "./components/instruments";
 import "./components/navbar/navbar.css"
+import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
   return (
