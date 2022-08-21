@@ -11,6 +11,8 @@ import Instruments from "./components/instruments";
 import "./components/navbar/navbar.css"
 import Astrophotography from "./components/astrophotography/ImageSlider";
 import images from "./components/astrophotography/images";
+import 'bootstrap/dist/css/bootstrap.css';
+
 
 function App() {
   return (

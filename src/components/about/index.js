@@ -1,7 +1,8 @@
 import React from "react";
 import './about.css';
 import NavBar from "../navbar";
-import MediaCard from "../aboutCard";
+import Card from 'react-bootstrap/Card';
+import CardGroup from 'react-bootstrap/CardGroup';
 
 function About () {
     return (
@@ -51,7 +52,7 @@ function About () {
             </div>
           </div>
     </section>
-        </>
+    </>
     )
 }
 
